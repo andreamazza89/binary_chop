@@ -7,7 +7,6 @@ class ChopOne
       break if search_element == sorted_array[index]
       index += 1
     end
-    sorted_array[0] == search_element ? 0 : 1
     index
   end
 
